@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.UnitTests", "BTCSocial\tests\Application.UnitTests\Application.UnitTests.csproj", "{E3421268-5A44-4A4F-8C50-85C0978A42F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.IntegrationTests", "BTCSocial\tests\Applicaton.IntegrationTests\Application.IntegrationTests.csproj", "{E0AA0255-D0B2-40FA-8281-D9B20109F15F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebUI", "BTCSocial\src\WebUI\WebUI.csproj", "{30FBA59A-01E5-4615-AA6F-E1006B50A474}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "BTCSocial\src\Application\Application.csproj", "{F9FA75AA-0EF1-49D3-8B23-925EBA368F33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "BTCSocial\src\Infrastructure\Infrastructure.csproj", "{7FC4A96D-3D78-4AAB-A9AB-1B80763F214B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "BTCSocial\src\Domain\Domain.csproj", "{9B472BF9-E0B5-42CB-BA72-13E4D67F3F26}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E3421268-5A44-4A4F-8C50-85C0978A42F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3421268-5A44-4A4F-8C50-85C0978A42F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3421268-5A44-4A4F-8C50-85C0978A42F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3421268-5A44-4A4F-8C50-85C0978A42F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0AA0255-D0B2-40FA-8281-D9B20109F15F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0AA0255-D0B2-40FA-8281-D9B20109F15F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0AA0255-D0B2-40FA-8281-D9B20109F15F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0AA0255-D0B2-40FA-8281-D9B20109F15F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30FBA59A-01E5-4615-AA6F-E1006B50A474}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30FBA59A-01E5-4615-AA6F-E1006B50A474}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30FBA59A-01E5-4615-AA6F-E1006B50A474}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30FBA59A-01E5-4615-AA6F-E1006B50A474}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9FA75AA-0EF1-49D3-8B23-925EBA368F33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9FA75AA-0EF1-49D3-8B23-925EBA368F33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9FA75AA-0EF1-49D3-8B23-925EBA368F33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9FA75AA-0EF1-49D3-8B23-925EBA368F33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FC4A96D-3D78-4AAB-A9AB-1B80763F214B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FC4A96D-3D78-4AAB-A9AB-1B80763F214B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FC4A96D-3D78-4AAB-A9AB-1B80763F214B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FC4A96D-3D78-4AAB-A9AB-1B80763F214B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B472BF9-E0B5-42CB-BA72-13E4D67F3F26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B472BF9-E0B5-42CB-BA72-13E4D67F3F26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B472BF9-E0B5-42CB-BA72-13E4D67F3F26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B472BF9-E0B5-42CB-BA72-13E4D67F3F26}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
