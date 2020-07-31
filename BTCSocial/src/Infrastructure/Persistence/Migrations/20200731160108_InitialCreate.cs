@@ -13,7 +13,7 @@ namespace BTCSocial.Infrastructure.Persistence.Migrations
                 {
                     Id = table.Column<Guid>(nullable: false),
                     Created = table.Column<DateTime>(nullable: false),
-                    StoryText = table.Column<string>(maxLength: 200, nullable: false)
+                    StoryText = table.Column<string>(maxLength: 5000, nullable: false)
                 },
                 constraints: table =>
                 {

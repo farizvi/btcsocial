@@ -7,7 +7,7 @@ namespace BTCSocial.Application.Stories.Commands.CreateStory
         public CreateStoryCommandValidator()
         {
             RuleFor(s => s.StoryText)
-                .MaximumLength(200)
+                .MaximumLength(5000)
                 .NotEmpty();
         }
     }

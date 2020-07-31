@@ -9,7 +9,7 @@ namespace BTCSocial.Infrastructure.Persistence.Configurations
         public void Configure(EntityTypeBuilder<Story> builder)
         {
             builder.Property(s => s.StoryText)
-                .HasMaxLength(200)
+                .HasMaxLength(5000)
                 .IsRequired();
         }
     }

@@ -5,6 +5,7 @@ using BTCSocial.WebUI.Filters;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.SpaServices.ReactDevelopmentServer;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -83,18 +84,15 @@ namespace BTCSocial.WebUI
                 endpoints.MapRazorPages();
             });
 
-            // app.UseSpa(spa =>
-            // {
-            //     // To learn more about options for serving an Angular SPA from ASP.NET Core,
-            //     // see https://go.microsoft.com/fwlink/?linkid=864501
-            //
-            //     spa.Options.SourcePath = "ClientApp";
-            //
-            //     if (env.IsDevelopment())
-            //     {
-            //         spa.UseAngularCliServer(npmScript: "start");
-            //     }
-            // });
+            app.UseSpa(spa =>
+            {
+                spa.Options.SourcePath = "ClientApp";
+            
+                if (env.IsDevelopment())
+                {
+                    spa.UseReactDevelopmentServer(npmScript: "start");
+                }
+            });
         }
     }
 }

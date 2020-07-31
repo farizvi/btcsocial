@@ -30,8 +30,8 @@ namespace BTCSocial.Infrastructure.Persistence.Migrations
 
                     b.Property<string>("StoryText")
                         .IsRequired()
-                        .HasColumnType("nvarchar(200)")
-                        .HasMaxLength(200);
+                        .HasColumnType("nvarchar(max)")
+                        .HasMaxLength(5000);
 
                     b.HasKey("Id");
 
